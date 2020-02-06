@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Check if argument or path is added
-# eg: ./yourscript.sh
+# eg: ./yourscript.sh someargument
  
 if [[ "$1" != "" ]]; then
-	DIR="$1"
+	ARGUMENT1="$1"
 else
 	echo "NO PATH SET, THE SCRIPT EXITS NOW..." 1>&2
 	exit 1
